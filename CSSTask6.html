@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      img {
+        height: 300px;
+        margin-left: auto;
+        /* padding-left: 350px; */
+        margin-right: auto;
+        display: block;
+      }
+      .container {
+        margin-left: 450px;
+      }
+      button {
+        background-color: yellowgreen;
+        width: 475px;
+        color: white;
+        font-size: 16px;
+      }
+      .b2 {
+        background-color: green;
+        width: 50px;
+        font-size: 12px;
+        color: white;
+        /* margin-left: 300px; */
+      }
+
+      span.pwf {
+        margin-left: 675px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>New Form to be filled</h1>
+    <img src="img.PNG" alt="No Image" />
+    <div class="container">
+      <label for="un"><b>Username</b></label>
+      <br />
+      <input
+        type="text"
+        id="un"
+        placeholder="Enter Username"
+        size="65px"
+      /><br />
+      <br />
+      <label for="pw"><b>Password</b></label>
+      <br />
+      <input
+        type="password"
+        id="pw"
+        placeholder="Enter Password"
+        size="65px"
+      /><br /><br />
+      <button type="submit">Login</button>
+      <br />
+      <br />
+      <label><input type="checkbox" id="rem" />Remember Me</label>
+    </div>
+    <br />
+    <br />
+    <div
+      class="contianer2"
+      style="
+        background-color: antiquewhite;
+        width: 850px;
+        padding: 20px;
+        margin-left: 250px;
+      "
+    >
+      <button class="b2">Cancel</button>
+      <span class="pwf">Forgot <a href="#">Password</a></span>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    tr,
+    td,
+    table {
+      justify-content: center;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      border-collapse: collapse;
+      background-color: rgb(41, 48, 139);
+      color: aliceblue;
+      margin: auto;
+      /* width: 100px; */
+      /* border: 2px solid black ; */
+      display: flex;
+    }
+    td{
+        padding: 10px;
+    }
+    tr{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    body{
+        background-color: blue;
+        display: flex;
+    }
+    form{
+        padding: 100px;
+        padding-left: 450px;
+    }
+    table{
+        padding: 20px;
+    }
+  </style>
+  <body align="center">
+    <form style="display: flex">
+    <table>
+      <tr>
+        <td>Name:</td>
+        <td><input type="text"/></td>
+      </tr>
+      <br />
+        <td>Email</td>
+        <td><input type="email"/></td>
+      </tr>
+      <tr>
+        <td>Password:</td>
+        <td><input type="password" /></td>
+      </tr>
+      <tr>
+        <td>Phone Number:</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td>Gender:</td>
+        <td>
+          <input type="radio" id="g" />Male <input type="radio" id="g" />Female
+          <input type="radio" id="g" />Others
+        </td>
+      </tr>
+
+      <tr>
+        <td>Language:</td>
+        <td>
+          <select>
+            <option value="Default">Choose your language</option>
+            <option>English</option>
+            <option>Hindi</option>
+            <option>Spanish</option>
+            <option>French</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Zipcode</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td>About</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+            <button type="submit" class="but" style="width: 100px;color: aliceblue; background-color: greenyellow;">Register</button>
+        </td>
+      </tr>
+    </table>
+    </form>
+  </body>
+</html>
